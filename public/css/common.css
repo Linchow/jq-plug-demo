@@ -2,14 +2,18 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 	margin:0;
     padding:0;
 }
+body,html {
+    height: 100%;
+}
 td,th,caption {
     font-size:14px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight:normal;
     font-size:100%;
+    font-family: 'Pingfang SC','Lantinghei SC','Hiragino Sans GB','Open Sans','Helvetica Neue',Helvetica,sans-serif;
 }
-address, caption, cite, code, dfn, em, strong, th, var {
+address, caption, cite, code, dfn, em, th, var {
     font-style:normal;
     font-weight:normal;
 }
@@ -22,8 +26,8 @@ img {
     height: auto;
     border:none;
 }
-ol,ul,li {
-    list-style:none;
+ol,ul, {
+    list-style-type:none;
 }
 input, textarea, select, button {
     font:14px Verdana,Helvetica,Arial,sans-serif;

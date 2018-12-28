@@ -1,20 +1,20 @@
 {
-  "name": "jq-plugs-demo",
+  "name": "js-plugs-demo",
   "version": "1.0.0",
-  "description": "jQuery plugs demo",
+  "description": "JavaScript plugs demo",
   "scripts": {
     "start": "node ./node/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Linchow/jq-plugs-demo.git"
+    "url": "git+https://github.com/Linchow/js-plugs-demo.git"
   },
   "author": "clc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Linchow/jq-plugs-demo/issues"
+    "url": "https://github.com/Linchow/js-plugs-demo/issues"
   },
-  "homepage": "https://github.com/Linchow/jq-plugs-demo#readme",
+  "homepage": "https://github.com/Linchow/js-plugs-demo#readme",
   "dependencies": {
     "express": "^4.16.4"
   }

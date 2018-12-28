@@ -3,10 +3,33 @@ html {
 }
 .box {
     max-width: 1000px;
+    min-height: 100%;
     margin: 0 auto;
     background: #fff;
-    height: 500px;
 }
 .container {
     padding: 30px;
+}
+.title-1 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666;
+    text-align: justify;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.ulList {
+    list-style-type: disc;
+    margin-left: 2em;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.ulList a {
+    color: #08c;
 }

@@ -1,2 +1,2 @@
-# jq-plugs-demo
-jq插件用法demo
+# js-plugs-demo
+js插件用法demo
