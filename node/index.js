@@ -9,7 +9,7 @@ var hostName = getIp();
 var port = '3000';
 var url = `http://${hostName}:${port}`;
 
-app.use(express.static(path.join(__dirname,'../public')))
+app.use(express.static(path.join(__dirname,'../docs')))
 
 app.listen(port,hostName,function(){
     console.log(`Server is Running on ${url}..`);

@@ -27,7 +27,7 @@ define(['template'], function(template) {
                 return format;   
             })
             // 字符串
-            var template_str = `<p>Hello，大家好！我叫{{name}}，今年{{age}}岁，喜欢{{each like as item i}}{{item}}{{i == like.length - 1 ? '！' : '、'}}{{/each}}<br>{{format('yyyy-MM-dd hh:mm:ss')}}</p>`;
+            var template_str = "<p>Hello，大家好！我叫{{name}}，今年{{age}}岁，喜欢{{each like as item i}}{{item}}{{i == like.length - 1 ? '！' : '、'}}{{/each}}<br>{{format('yyyy-MM-dd hh:mm:ss')}}</p>";
             // 外部文件(ajax取值)
             $.get('./module/1.html', function(template){
                 // 3. 以外部文件为模板(因为异步，必须先取到模板，再编译)
