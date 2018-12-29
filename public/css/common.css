@@ -26,7 +26,7 @@ img {
     height: auto;
     border:none;
 }
-ol,ul, {
+ol,ul {
     list-style-type:none;
 }
 input, textarea, select, button {
