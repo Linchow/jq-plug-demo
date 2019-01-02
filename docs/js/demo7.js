@@ -1,4 +1,4 @@
-define([''], function() {
+define(['page'], function() {
     return {
         init: function() {
 

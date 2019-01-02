@@ -1,4 +1,4 @@
-define([''], function() {
+define(['datepicker'], function() {
     return {
         init: function() {
 

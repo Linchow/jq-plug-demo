@@ -1,4 +1,4 @@
-define([''], function() {
+define(['scroll'], function() {
     return {
         init: function() {
 

@@ -2,10 +2,9 @@
 requirejs.config({
     paths:{
         jquery: ['lib/jquery.min'],
-        highlight: ['lib/highlight.pack'],
         layer:['lib/layer'],
         template:['lib/template'],
-        datepickr:['lib/datepicker.min'],
+        datepicker:['lib/datepicker.min'],
         page:['lib/page'],
         scroll:["lib/yi-scroll"],
         qtip:["lib/jquery.qtip.min"],
@@ -17,6 +16,30 @@ requirejs.config({
 require(['jquery'],function(){
   
     init();
+
+    var timer = null, top;
+    // 滚动监听
+    $(document).scroll(function(){
+        top = $(document).scrollTop();
+        clearTimeout(timer);
+        $('.js-side-bar').css({right: '-55px'});
+        if(top < 500){
+            return;
+        }
+        timer = setTimeout(function(){
+            if(top == $(document).scrollTop()){
+                $('.js-side-bar').css({right: '10px'});
+            }
+        }, 500);
+    })
+    // 返回首页
+    $('.js-home').click(function(){
+        location.href = '../';
+    })
+    // 返回顶部
+    $('.js-top').click(function(){
+        $('body,html').animate({scrollTop: 0},500);
+    })
 
     function init(){
         var routeId = $('.js-route-flag'); // 唯一标示

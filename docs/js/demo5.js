@@ -1,4 +1,4 @@
-define([''], function() {
+define(['qtip'], function() {
     return {
         init: function() {
 
