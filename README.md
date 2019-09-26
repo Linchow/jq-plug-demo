@@ -4,7 +4,8 @@
 
 ## 目录
 
-- [artTemplate - 前端模板引擎](./docs/demo/artTemplate.html)
+- [artTemplate - 前端模板引擎](https://linchow.github.io/js-plugs-demo/demo/artTemplate.html)
+- [layer - 弹窗插件](https://linchow.github.io/js-plugs-demo/demo/layer.html)
 
 ## 项目启动
 
