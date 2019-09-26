@@ -6,6 +6,9 @@
 
 - [artTemplate - 前端模板引擎](https://linchow.github.io/js-plugs-demo/demo/artTemplate.html)
 - [layer - 弹窗插件](https://linchow.github.io/js-plugs-demo/demo/layer.html)
+- [pdf - PDF阅读器](https://linchow.github.io/js-plugs-demo/demo/pdf.html)
+- [qrcode - js动态生成二维码](https://linchow.github.io/js-plugs-demo/demo/qrcode.html)
+- [tower - 疯狂加血版魔塔小游戏](https://linchow.github.io/js-plugs-demo/demo/tower.html)
 
 ## 项目启动
 
