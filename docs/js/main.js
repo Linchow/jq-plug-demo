@@ -4,11 +4,6 @@ requirejs.config({
         jquery: ['lib/jquery.min'],
         layer:['lib/layer'],
         template:['lib/template'],
-        datepicker:['lib/datepicker.min'],
-        page:['lib/page'],
-        scroll:["lib/yi-scroll"],
-        qtip:["lib/jquery.qtip.min"],
-        form:['lib/jquery.form'],
     },
     urlArgs: "version=" +  (new Date()).getTime()
 })
@@ -44,18 +39,18 @@ require(['jquery'],function(){
     function init(){
         var routeId = $('.js-route-flag'); // 唯一标示
 
-        if(routeId.hasClass("js-demo1")){
-            require(["../js/demo1"],function(demo){
+        if(routeId.hasClass("js-artTemplate")){
+            require(["../js/artTemplate"],function(demo){
                 demo.init();
             })
         }
-        if(routeId.hasClass("js-demo2")){
-            require(["../js/demo2"],function(demo){
+        if(routeId.hasClass("js-layer")){
+            require(["../js/layer"],function(demo){
                 demo.init();
             })
         }
-        if(routeId.hasClass("js-demo3")){
-            require(["../js/demo3"],function(demo){
+        if(routeId.hasClass("js-datepicker")){
+            require(["../js/datepicker"],function(demo){
                 demo.init();
             })
         }
