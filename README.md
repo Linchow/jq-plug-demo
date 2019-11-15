@@ -1,6 +1,5 @@
 # js-plugs-demo
-总结在工作中遇到的插件用法，定期更新~
-在线地址[https://linchow.github.io/js-plugs-demo/](https://linchow.github.io/js-plugs-demo/)
+总结在工作中遇到的插件用法，定期更新~ [预览](https://linchow.github.io/js-plugs-demo/)
 
 ## 目录
 
